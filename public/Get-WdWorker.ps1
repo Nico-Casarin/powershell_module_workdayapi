@@ -94,11 +94,11 @@ Get-WdWorker -WorkerId 123 -IncludePersonal
   </bsvc:Request_Criteria>
   <bsvc:Response_Group>
     <bsvc:Include_Reference>true</bsvc:Include_Reference>
-    <bsvc:Include_Personal_Information>false</bsvc:Include_Personal_Information>
-    <bsvc:Include_Employment_Information>false</bsvc:Include_Employment_Information>
+    <bsvc:Include_Personal_Information>true</bsvc:Include_Personal_Information>
+    <bsvc:Include_Employment_Information>true</bsvc:Include_Employment_Information>
     <bsvc:Include_Compensation>false</bsvc:Include_Compensation>
-    <bsvc:Include_Organizations>false</bsvc:Include_Organizations>
-    <bsvc:Include_Roles>false</bsvc:Include_Roles>
+    <bsvc:Include_Organizations>true</bsvc:Include_Organizations>
+    <bsvc:Include_Roles>true</bsvc:Include_Roles>
     <bsvc:Include_Worker_Documents>false</bsvc:Include_Worker_Documents>
   </bsvc:Response_Group>
 </bsvc:Get_Workers_Request>
